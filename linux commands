@@ -1,0 +1,19 @@
+Day-1 
+
+root@linuxvm:/var/log# history
+    1  ls
+    2  cd /
+    3  ls
+    4  cd /var/
+    5  ls
+    6  cd log/
+    7  ls
+    8  pwd
+    9  ls
+   10  cat auth.log
+   11  more auth.log 
+   12  tail 50 auth.log 
+   13  tail -f 50 auth.log
+   14  cat auth.log | grep error
+   15  cat auth.log | grep vikas4cloud
+   16  history
