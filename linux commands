@@ -68,3 +68,68 @@ root@day2:~# history
    44  df -m
    45  df -h
    46  history
+
+
+day-3 
+
+
+  ls
+    2  pwd
+    3  cd ..
+    4  ls
+    5  uname -a
+    6  htop
+    7  uptime
+    8  wget
+    9  last
+   10  ps
+   11  ps -aef
+   12  ps -aef | grep oom
+   13  ps -aef | grep -i ps
+   14  ps -aef | grep node
+   15  ps -aef | grep sql
+   16  ps -aef | grep python
+   17  df -h
+   18  du -h
+   19  ls
+   20  ping
+   21  ping www.google.com
+   22  ping 34.61.253.198
+   23  mkdir myfiles; touch myfiles/{a.txt,b.txt,c.txt}
+   24  ls
+   25  mkdir myfiles ; touch myfiles/{a.txt,b.txt,c.txt}
+   26  cd myfiles
+   27  ls
+   28  cd ..
+   29  tar myfiles
+   30  tar -cvf allfiles.tar myfiles
+   31  ls
+   32  ls -l
+   33  vi ni.sh
+   34  ./ni.sh
+   35  chmod +x ni.sh
+   36  ./ni.sh
+   37  cat ni.sh
+   38  ./ni.sh
+   39  ls
+   40  ni.sh
+   41  vi n.sh
+   42  cat n.sh
+   43  ./n.sh
+   44  chmod +x vi n.sh
+   45  chmod +x  n.sh
+   46  ./n.sh
+   47  addgroup devops
+   48  getent group
+   49  adduser prabhat
+   50  addgroup dev
+   51  getent group
+   52  usermod -a -G dev prabhat
+   53  getent group
+   54  ls
+   55  cd etc
+   56  ls
+   57  cd passwd
+   58  cat passwd
+   59  cat group
+   60  history
