@@ -1,25 +1,26 @@
+9 11 17 23
+
 Approach 4 :- Install Jenkins On Ubuntu    (this is production / real time approach)
 
 This installation is specific to systems operating on Ubuntu.   Follow the below steps:  https://www.jenkins.io/doc/book/installing/linux/ 
 Step 1: Install Java                           
-$ sudo apt update               verify      
+
+
+sudo apt update                
 java -version
 
-sudo apt install openjdk-21-jdk -y            with JDK 
+sudo apt install openjdk-21-jdk -y            
 
 
 Step 2: Add Jenkins Repository i.e key
 
-sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
-  https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
 
 
 Step 3: Add Jenkins repo to the system i.e source list
 
 
-echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
-  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"  https://pkg.jenkins.io/debian-stable binary/ | sudo tee  /etc/apt/sources.list.d/jenkins.list > /dev/null
 
 
 Step 4: Install Jenkins
